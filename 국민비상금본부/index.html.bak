@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+  <meta name="google-site-verification" content="ogeKtwAtLkOpLxTwaA3F_Brlg78jMzjr0pZ0BzhMXwg" />
+  <meta name="naver-site-verification" content="232fef84adc9654430fdebe916f1a78cd360b8ec" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- 기본 SEO -->
+<title>국민비상금본부 | 최신 정부 비상금 지원금·긴급자금 신청 정보 총정리</title>
+<meta name="description" content="국민비상금본부에서 정부 비상금, 최신 지원금, 긴급생활자금, 소액대출 신청 정보를 가장 빠르게 확인하세요. 지금 바로 국민비상금본부에서 지원 대상, 신청 방법, 지급 일정까지 한눈에 확인 가능!" />
+<link rel="canonical" href="https://ksafecore.netlify.app" />
+
+<!-- Open Graph -->
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="국민비상금본부 | 정부 비상금·지원금 최신 정보 즉시 확인" />
+<meta property="og:description" content="정부 비상금과 긴급지원금 정보를 놓치지 마세요. 국민비상금본부에서 지원대상, 신청절차, 지급일정까지 가장 빠르게 안내합니다." />
+<meta property="og:url" content="https://ksafecore.netlify.app" />
+<meta property="og:site_name" content="국민비상금본부" />
+<meta property="og:image" content="https://ksafecore.netlify.appog-image.jpg" />
+
+<!-- Twitter 카드 -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="국민비상금본부 | 정부 비상금·지원금 신청 안내" />
+<meta name="twitter:description" content="지금 바로 국민비상금본부에서 정부 비상금·지원금·긴급자금 정보를 빠르게 확인하고 신청 절차를 안내받으세요." />
+<meta name="twitter:image" content="https://ksafecore.netlify.appog-image.jpg" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-plot-listing.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html" class="active">홈</a></li>
+              <li><a href="category.html">비상금 종류</a></li>
+              <li><a href="listing.html">지원 목록</a></li>
+              <li><a href="contact.html">상담 문의</a></li> 
+              <li><div class="main-white-button"><a href="#"><i class="fa fa-plus"></i> 빠른 비상금 신청</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>메뉴</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="top-text header-text">
+            <h6>전국 36,500+ 비상금 지원 정보 업데이트</h6>
+            <h2>당신에게 필요한 비상금, 지금 바로 찾아보세요</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-3 align-self-center">
+                  <fieldset>
+                      <select name="area" class="form-select" aria-label="Area" id="chooseCategory" onchange="this.form.click()">
+                          <option selected>전체 지역</option>
+                          <option value="New Village">서울</option>
+                          <option value="Old Town">경기</option>
+                          <option value="Modern City">지방</option>
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-3 align-self-center">
+                  <fieldset>
+                      <input type="address" name="address" class="searchText" placeholder="원하는 비상금 검색" autocomplete="on" required>
+                  </fieldset>
+              </div>
+              <div class="col-lg-3 align-self-center">
+                  <fieldset>
+                      <select name="price" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                          <option selected>지원 가능 금액대</option>
+                          <option value="$100 - $250">10만 ~ 50만</option>
+                          <option value="$250 - $500">50만 ~ 100만</option>
+                          <option value="$500 - $1000">100만 ~ 200만</option>
+                          <option value="$1000+">200만 이상</option>
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-3">                        
+                  <fieldset>
+                      <button class="main-button"><i class="fa fa-search"></i> 비상금 찾기</button>
+                  </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-10 offset-lg-1">
+          <ul class="categories">
+            <li><a href="category.html"><span class="icon"><img src="assets/images/search-icon-01.png" alt="Home"></span> 긴급생활비</a></li>
+            <li><a href="listing.html"><span class="icon"><img src="assets/images/search-icon-02.png" alt="Food"></span> 정부지원금</a></li>
+            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-03.png" alt="Vehicle"></span> 당일 비상금</a></li>
+            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-04.png" alt="Shopping"></span> 작은금액 지원</a></li>
+            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-05.png" alt="Travel"></span> 긴급자금</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="popular-categories">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>국민비상금본부 인기 지원 카테고리</h2>
+            <h6>가장 많이 신청한 비상금 종류</h6>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <span class="icon"><img src="assets/images/search-icon-01.png" alt=""></span>
+                        긴급생활비 지원
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="assets/images/search-icon-02.png" alt=""></span>
+                        정부 비상금 정책
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="assets/images/search-icon-03.png" alt=""></span>
+                        당일 입금 서비스
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="assets/images/search-icon-04.png" alt=""></span>
+                        소액지원 프로그램
+                      </div>
+                    </div>
+                    <div class="last-thumb">
+                      <div class="thumb">                 
+                        <span class="icon"><img src="assets/images/search-icon-05.png" alt=""></span>
+                        긴급자금 안내
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-lg-9 align-self-center">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>지금 가장 뜨거운 비상금 지원!</h4>
+                                <p>국민비상금본부는 빠른 승인, 간편 절차, 즉시 확인 가능한 비상금 지원 정보를 제공합니다. 누구나 쉽게 접근할 수 있는 나라 지원금부터 당일 입금형 긴급지원까지 한눈에 확인하세요.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-01.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>정부 비상금 정책 지금 신청하세요</h4>
+                                <p>정부·지자체에서 제공하는 다양한 현금지원 정책을 빠르게 안내합니다. 지원 대상, 신청 절차, 지급 일정을 국민비상금본부에서 빠르게 알려드립니다.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-02.jpg" alt="Foods on the table">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>당일 입금 가능한 비상금</h4>
+                                <p>급하다면 지금 확인하세요. 당일 입금 가능한 비상금 서비스를 통해 빠르게 자금을 확보할 수 있습니다. 복잡한 절차 없이 간편하게 진행됩니다.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-03.jpg" alt="cars in the city">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>작은금액도 빠르게 지원</h4>
+                                <p>생활비가 조금 모자라셨나요? 소액 비상금 지원 프로그램으로 빠르고 안전하게 도움받으세요. 누구나 간편하게 신청 가능합니다.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-04.jpg" alt="Shopping Girl">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>긴급자금 정보 총정리</h4>
+                                <p>갑작스러운 상황에서도 빠르게 대응할 수 있는 긴급자금 전체 정보를 제공합니다. 신청 기준, 필요한 서류, 진행 절차까지 상세하게 안내합니다.</p>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-05.jpg" alt="Traveling Beach">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="recent-listing">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>최근 업데이트된 비상금 지원 정보</h2>
+            <h6>지금 신청 가능한 비상금·긴급자금 리스트</h6>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-listing">
+
+            <!-- Item 1 -->
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div class="recent-item">
+                    <div class="thumb">
+                      <img src="assets/images/listing-01.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                      <h4>정부 긴급생활비 지원</h4>
+                      <span>전국 지원 가능</span>
+                      <ul class="info">
+                        <li><i class="fa fa-clock"></i>신청 즉시 확인</li>
+                        <li><i class="fa fa-dollar"></i>최대 100만원</li>
+                        <li><i class="fa fa-map"></i>모든 지역</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-lg-4 col-md-6">
+                  <div class="recent-item">
+                    <div class="thumb">
+                      <img src="assets/images/listing-02.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                      <h4>당일 입금 비상금</h4>
+                      <span>빠른 승인</span>
+                      <ul class="info">
+                        <li><i class="fa fa-clock"></i>당일 처리</li>
+                        <li><i class="fa fa-dollar"></i>10만~200만</li>
+                        <li><i class="fa fa-map"></i>전국 가능</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-lg-4 col-md-6">
+                  <div class="recent-item">
+                    <div class="thumb">
+                      <img src="assets/images/listing-03.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                      <h4>긴급 소액자금 지원</h4>
+                      <span>신속·간편</span>
+                      <ul class="info">
+                        <li><i class="fa fa-clock"></i>1분 체크</li>
+                        <li><i class="fa fa-dollar"></i>최대 50만</li>
+                        <li><i class="fa fa-map"></i>전국</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="item">
+              <div class="row">
+
+                <!-- Item 1 -->
+                <div class="col-lg-4 col-md-6">
+                  <div class="recent-item">
+                    <div class="thumb">
+                      <img src="assets/images/listing-04.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                      <h4>전국 비상금 지원센터</h4>
+                      <span>지역별 조회</span>
+                      <ul class="info">
+                        <li><i class="fa fa-clock"></i>24시간 안내</li>
+                        <li><i class="fa fa-dollar"></i>다양한 금액대</li>
+                        <li><i class="fa fa-map"></i>전국 센터</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-lg-4 col-md-6">
+                  <div class="recent-item">
+                    <div class="thumb">
+                      <img src="assets/images/listing-05.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                      <h4>위기대응 긴급자금</h4>
+                      <span>누구나 가능</span>
+                      <ul class="info">
+                        <li><i class="fa fa-clock"></i>빠른 심사</li>
+                        <li><i class="fa fa-dollar"></i>최대 150만</li>
+                        <li><i class="fa fa-map"></i>전국</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-lg-4 col-md-6">
+                  <div class="recent-item">
+                    <div class="thumb">
+                      <img src="assets/images/listing-06.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                      <h4>정부 소액 비상자금</h4>
+                      <span>누구나 신청 가능</span>
+                      <ul class="info">
+                        <li><i class="fa fa-clock"></i>즉시 확인</li>
+                        <li><i class="fa fa-dollar"></i>최대 70만</li>
+                        <li><i class="fa fa-map"></i>모든 지역</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+
+        <!-- About -->
+        <div class="col-lg-3">
+          <div class="about">
+            <div class="logo">
+              <img src="assets/images/footer-logo.png" alt="">
+            </div>
+            <p>국민비상금본부는 전국의 모든 비상금·긴급생활비·정부지원금을 빠르게 안내하는 전문 정보 플랫폼입니다.  
+            빠른 승인, 즉시 확인, 간편 절차로 가장 빠른 비상금 정보를 제공합니다.</p>
+          </div>
+        </div>
+
+        <!-- Useful links -->
+        <div class="col-lg-3">
+          <h4>빠른 메뉴</h4>
+          <ul>
+            <li><a href="#">비상금 신청</a></li>
+            <li><a href="#">지역별 지원금</a></li>
+            <li><a href="#">정부지원 정책</a></li>
+            <li><a href="#">긴급자금 안내</a></li>
+            <li><a href="#">고객 상담</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-lg-3">
+          <h4>고객지원센터</h4>
+          <ul>
+            <li><a href="#">1:1 빠른 상담</a></li>
+            <li><a href="#">지원금 조회</a></li>
+            <li><a href="#">당일 입금 안내</a></li>
+            <li><a href="#">긴급지원 절차</a></li>
+            <li><a href="#">문의 접수</a></li>
+          </ul>
+        </div>
+
+        <!-- Social -->
+        <div class="col-lg-3">
+          <h4>연결하기</h4>
+          <ul>
+            <li><a href="#">카카오톡 상담</a></li>
+            <li><a href="#">네이버 톡톡</a></li>
+            <li><a href="#">빠른 링크 이동</a></li>
+            <li><a href="#">지원금 알림 서비스</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="sub-footer">
+            <p>Copyright © 국민비상금본부.  
+            모든 비상금 정보 및 정책은 변동될 수 있으며, 최신 내용은 안내페이지를 통해 확인 바랍니다.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
